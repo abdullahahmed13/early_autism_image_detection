@@ -18,7 +18,7 @@ st.header('Please upload an Image For Your Child')
 file = st.file_uploader('', type=['jpeg', 'jpg', 'png'])
 
 # load classifier
-model = load_model('model/autism_74.h5')
+model = load_model('autism_74.h5')
 
 
 if file is not None:
