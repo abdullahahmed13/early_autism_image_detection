@@ -1,5 +1,6 @@
 import streamlit as st
-from keras.models import load_model
+# from keras.models import load_model
+import tensorflow as tf
 from PIL import Image
 import numpy as np
 import cv2
@@ -18,7 +19,8 @@ st.header('Please upload an Image For Your Child')
 file = st.file_uploader('', type=['jpeg', 'jpg', 'png'])
 
 # load classifier
-model = load_model('autism_74.h5')
+# model = load_model('autism_74.h5')
+model = tf.keras.models.load_model('autism_74.h5')
 
 
 if file is not None:
