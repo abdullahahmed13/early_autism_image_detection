@@ -1,5 +1,6 @@
 numpy==1.24.3
 opencv-python
+h5py
 Pillow==9.5.0
 streamlit==1.25.0
 tensorflow==2.13.0
