@@ -3,4 +3,4 @@ opencv-python
 h5py
 Pillow==9.5.0
 streamlit
-tensorflow==2.13.0
+tensorflow
